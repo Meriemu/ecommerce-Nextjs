@@ -1,3 +1,8 @@
+## You can just check the code, but if you want to review the app, you can go to : https://ecommerce-nextjs-ruddy.vercel.app/
+
+### There is no awsome CSS, it's only my first test using NextJs, nothing special.. x)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
