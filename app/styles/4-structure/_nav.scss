@@ -19,13 +19,21 @@
 
     .navbar__item {
         padding: 2rem;
+
+        &.active {
+            a {
+                color: #2d384b;
+                background-color:#ead2e8;
+                padding: 1rem 2rem;
+            }
+        }
         a {
             font-size: 1.4rem;
             color: $white;
+        }
 
-            &.active {
-                background-color: rgb(28, 26, 26);
-            }
+        &:hover {
+            font-weight: $fw-bold;
         }
     }
 }
