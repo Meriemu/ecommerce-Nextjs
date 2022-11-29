@@ -1,0 +1,94 @@
+// var-custom.scss -- Variables for project
+
+// This map is used for loops (buttons, text-color, bg-color)
+$project-colors: (
+    "primary": var(--primary),
+    "default": var(--gray-900),
+    "brand-2": var(--brand-2),
+    "white": var(--white),
+);
+
+// Font weight
+$fw-light:      300;
+$fw-regular:    400;
+$fw-medium:     500;
+$fw-semiBold:   600;
+$fw-bold:       700;
+$fw-extraBold:  800;
+$fw-black:      900;
+
+$typo-familles-weight: (
+    "light": $fw-light,
+    "regular": $fw-regular,
+    "medium": $fw-medium,
+    "semiBold": $fw-semiBold,
+    "bold": $fw-bold,
+    "extraBold": $fw-extraBold,
+    "black": $fw-black,
+);
+
+// Typo
+$h1-font-size-desktop: 3.6rem;
+$h2-font-size-desktop: 2.6rem;
+$h3-font-size-desktop: 2rem;
+$h4-font-size-desktop: 1.8rem;
+$h5-font-size-desktop: 1.7rem;
+$h6-font-size-desktop: 1.6rem;
+
+$h1-font-size-mobile: $h2-font-size-desktop;
+$h2-font-size-mobile: $h3-font-size-desktop;
+$h3-font-size-mobile: $h4-font-size-desktop;
+$h4-font-size-mobile: $h5-font-size-desktop;
+$h5-font-size-mobile: $h6-font-size-desktop;
+$h6-font-size-mobile: $h6-font-size-desktop;
+
+$lead-font-size:        1.8rem;
+$lead-font-weight:      $fw-bold;
+$lead-margin-bottom:    2rem;
+$lead-color:            var(--gray-900);
+
+// Fonticon
+// $fonticon_folder:   'icomoon';
+// $fonticon_token:    'b7vc26';
+// $fonticon-path:     '../font/#{$fonticon_folder}/#{$fonticon-name}';
+
+$icons: (
+    icon-file-pdf: "\e96a",
+    icon-glossary: "\e921",
+    icon-agenda: "\e900",
+    icon-quote: "\e90c",
+    icon-contact: "\e90d",
+    icon-print: "\e911",
+    icon-external-link: "\e915",
+    icon-connexion: "\e931",
+    icon-favorite: "\e93e",
+    icon-burger: "\e941",
+    icon-user: "\e947",
+    icon-search: "\e94c",
+    icon-delete: "\e955",
+    icon-refresh: "\e956",
+    icon-download: "\e957",
+    icon-upload: "\e958",
+    icon-rss: "\e918",
+    icon-youtube: "\e91c",
+    icon-twitter: "\e91b",
+    icon-facebook: "\e90f",
+    icon-linkedin: "\e916",
+    icon-instagram: "\e914",
+    icon-access: "\e95b",
+    icon-info: "\e901",
+    icon-warning: "\e906",
+    icon-close: "\e910",
+    icon-plus: "\e95f",
+    icon-minus: "\e919",
+    icon-check: "\e960",
+    icon-angle-double-left: "\e902",
+    icon-angle-double-right: "\e903",
+    icon-arrow-sortable: "\e966",
+    icon-angle-down: "\e961",
+    icon-angle-up: "\e962",
+    icon-angle-left: "\e963",
+    icon-angle-right: "\e964",
+);
+
+// Others

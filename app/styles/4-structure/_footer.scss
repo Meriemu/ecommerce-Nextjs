@@ -1,0 +1,10 @@
+.footer-list--inline {
+    @include make-row($grid-gutter-width);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+
+    .footer-list__item {
+        padding: 0 $grid-gutter-width*0.5;
+    }
+}

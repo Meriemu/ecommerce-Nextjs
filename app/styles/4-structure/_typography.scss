@@ -1,0 +1,75 @@
+::-webkit-input-placeholder { color: var(--input-placeholder-color); font-style:italic; }
+:-moz-placeholder { color: var(--input-placeholder-color); font-style:italic; }
+::-moz-placeholder { color: var(--input-placeholder-color); opacity: 1; font-style:italic; }
+:-ms-input-placeholder { color: var(--input-placeholder-color); font-style:italic; }
+
+::-moz-selection {
+    color: var(--white);
+    // background-color: var(--body-color);
+}
+
+::selection {
+    color: var(--white);
+    // background-color: var(--body-color);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, .h1 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h1-font-size-desktop;
+    }
+}
+
+h2, .h2 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h2-font-size-desktop;
+    }
+}
+
+h3, .h3 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h3-font-size-desktop;
+    }
+}
+
+h4, .h4 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h4-font-size-desktop;
+    }
+}
+
+h5, .h5 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h5-font-size-desktop;
+    }
+}
+
+h6, .h6 {
+    @include media-breakpoint-up(lg) {
+        font-size: $h6-font-size-desktop;
+    }
+}
+
+.lead {
+    margin-bottom: $lead-margin-bottom;
+}
+
+.external-link {
+    .icon-external-link {
+        display: inline-block;
+        margin-left: 0.6rem;
+        font-size: 1rem;
+    }
+}
+
+.mark, mark {
+    color: var(--primary);
+    font-weight: bolder;
+}
